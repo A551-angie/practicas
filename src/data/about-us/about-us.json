@@ -10,7 +10,7 @@
         "content2": "Es una iniciativa que busca crear sinergias entre las Medianas/Grandes Empresas y las Pymes/MicroPymes, mediante acciones concretas que buscan rescatar y fortalecer las pequeñas empresas a atravès de ruedas de negocio, nuevas contrataciones, prestamos directos, avales financieros, redes de contactacto y asesorìas entre otras posibilidades.",
         "mission": [
             {
-                "id": "mission",
+                "id": "missions",
                 "VerientClassName": "bg-color1",
                 "title": "Misiòn",
                 "text1": "Servir como plataforma de networking entre empresarios, creando relaciones entre microempresarios en necesidad de salvar su negocio y empresarios medianos y grandes con la disposiciòn de apoyo a dichas nesesidades.",
