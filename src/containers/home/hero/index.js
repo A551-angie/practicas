@@ -80,13 +80,13 @@ const Hero = () => {
                     <Row>
                         <Col md={6} lg={6} xl={7}>
                             <Content>
-                                <SubTitle>
+                                {/* <SubTitle>
                                     <StaticImage
                                         src="../../../data/images/icons/1.png"
                                         alt="Givest"
                                     />
                                     <h6>{subTitle}</h6>
-                                </SubTitle>
+                                </SubTitle> */}
                                 <HeroTitleWrap>
                                     <h1
                                         dangerouslySetInnerHTML={{
@@ -98,7 +98,7 @@ const Hero = () => {
                                     className="btn-wrp"
                                     sx={{ display: "flex" }}
                                 >
-                                    <Button path="/causes" color="gradient">
+                                    {/* <Button path="/causes" color="gradient">
                                         All Causes{" "}
                                         <i className="flaticon-right-arrow"></i>
                                     </Button>
@@ -109,7 +109,7 @@ const Hero = () => {
                                     >
                                         Donate Now{" "}
                                         <i className="flaticon-right-arrow"></i>
-                                    </Button>
+                                    </Button> */}
                                 </div>
                             </Content>
                         </Col>
@@ -120,36 +120,36 @@ const Hero = () => {
                         >
                             <LayerStyle>
                                 <div className="thumb scene">
-                                    <span
+                                    {/* <span
                                         className="scene-layer"
                                         data-depth="0.20"
                                     >
                                         <GatsbyImage image={image} alt="" />
-                                    </span>
+                                    </span> */}
                                     <div className="shape-circle scene">
                                         <span
                                             className="scene-layer"
                                             data-depth="0.10"
                                         >
-                                            <GatsbyImage
+                                            {/* <GatsbyImage
                                                 image={image1}
                                                 alt=""
-                                            />
+                                            /> */}
                                         </span>
                                         <span
                                             className="scene-layer"
                                             data-depth="0.40"
                                             ref={sceneEl}
                                         >
-                                            <GatsbyImage
+                                            {/* <GatsbyImage
                                                 className="circle-img"
                                                 image={image3}
                                                 alt=""
-                                            />
+                                            /> */}
                                         </span>
                                     </div>
                                 </div>
-                                <div
+                                {/* <div
                                     className="shape-style1 scene"
                                     ref={sceneEl}
                                 >
@@ -159,8 +159,8 @@ const Hero = () => {
                                     >
                                         <GatsbyImage image={image2} alt="" />
                                     </span>
-                                </div>
-                                <DonateCircleWrap>
+                                </div> */}
+                                {/* <DonateCircleWrap>
                                     <div className="pie-chart-circle"></div>
                                     <DonateContent>
                                         <div className="raised-amount">
@@ -175,7 +175,7 @@ const Hero = () => {
                                             Total Raised
                                         </h5>
                                     </DonateContent>
-                                </DonateCircleWrap>
+                                </DonateCircleWrap> */}
                             </LayerStyle>
                         </Col>
                     </Row>
@@ -185,11 +185,11 @@ const Hero = () => {
                         <div className="shape-style1">
                             <StaticImage
                                 className="shape-img1"
-                                src="../../../data/images/shape/map1.png"
+                                src="../../../data/images/shape/banner.jpeg"
                                 alt=""
                             />
                         </div>
-                        <div className="shape-style2">
+                        {/* <div className="shape-style2">
                             <StaticImage
                                 className="shape-img2"
                                 src="../../../data/images/shape/map2.png"
@@ -209,7 +209,7 @@ const Hero = () => {
                                 src="../../../data/images/shape/banner-line2.png"
                                 alt=""
                             />
-                        </div>
+                        </div> */}
                     </div>
                 </SliderShape>
             </HomeSliderItem>

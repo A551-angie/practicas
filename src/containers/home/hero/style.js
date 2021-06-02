@@ -67,6 +67,7 @@ export const HeroTitleWrap = styled.div`
     h1 {
         font-size: ${themeGet("fontSize.h1.0")};
         line-height: 1.2;
+        color: #fff;
         ${device.medium} {
             font-size: ${themeGet("fontSize.h1.2")};
         }
