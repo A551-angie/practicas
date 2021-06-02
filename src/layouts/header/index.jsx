@@ -85,12 +85,17 @@ const Header = () => {
             >
                 <Container>
                     <Row className="align-items-center">
-                        <Col lg={2} md={3} sm={3} xs={5}>
+                       <Col lg={2} md={3} sm={3} xs={5}>
                             <Logo />
                         </Col>
+                    </Row>
+                </Container>
+                <MainMenu allmenuData={menuData} />
+                <Container>
+                    <Row className="align-items-center">
+                        
                         <Col lg={10} md={9} sm={9} xs={7}>
-                            <HeaderMenuArea>
-                                <MainMenu allmenuData={menuData} />
+                            <HeaderMenuArea>                              
 
                                 <HeaderActionArea>
                                     <MobileMenuBtn
@@ -101,17 +106,17 @@ const Header = () => {
                                         <span></span>
                                         <span></span>
                                     </MobileMenuBtn>
-                                    <ButtonBoxArea>
+                                    {/*<ButtonBoxArea>
                                         <Button
                                             sx={{ ml: "15px" }}
                                             type="button"
                                             path="/contact-us"
                                             color="gradient"
                                         >
-                                            Give Support{" "}
+                                           CONTÀCTANOS{" "}
                                             <i className="flaticon-right-arrow"></i>
                                         </Button>
-                                    </ButtonBoxArea>
+                                    </ButtonBoxArea>*/}
                                 </HeaderActionArea>
                             </HeaderMenuArea>
                         </Col>
