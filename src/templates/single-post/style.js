@@ -132,7 +132,7 @@ export const PostSocialItems = styled.div`
         &:hover {
             color: #fff;
             background: #fea444;
-            background: linear-gradient(to right, #fea444 0%, #fc6539 100%);
+            background: linear-gradient(to right, #1E9537 0%, #248598 100%);
         }
     }
 `;

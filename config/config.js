@@ -19,7 +19,7 @@ module.exports = {
     },
     siteLanguage: "en",
     favicon: "src/assets/images/favicon.png", // Used for manifest favicon generation
-    shortName: "Givest Gatsby", // shortname for manifest. *Must* be shorter than 12 characters
+    shortName: "Paisano", // shortname for manifest. *Must* be shorter than 12 characters
     themeColor: "#5E60E7",
     backgroundColor: "#fff",
 };

@@ -74,7 +74,7 @@ export const EventItemTitle = styled.h6`
     font-size: 16px;
     margin-bottom: 0;
     background: #fea444;
-    background: linear-gradient(to right, #fea444 0%, #fc6539 100%);
+    background: linear-gradient(to right, #1E9537 0%, #248598 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.1s;

@@ -69,9 +69,9 @@ export const ProgressItem = styled.div`
             white-space: nowrap;
             border-radius: 0;
             background: #fea444;
-            background: linear-gradient(to right, #fea444 0%, #fc6539 100%);
+            background: linear-gradient(to right, #248598 0%, #1E9537 100%);
             &::after {
-                background-color: #fc6539;
+                background-color: #248598;
                 border-radius: 50%;
                 content: "";
                 height: 12px;
