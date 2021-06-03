@@ -61,7 +61,7 @@ const Footer = () => {
     const footerimage = getImage(footerShapeImage);
     return (
         <FooterWrap>
-            <FooterMain>
+            {/*<FooterMain>
                 <Container>
                     <Row>
                         <Col sm={12} md={6} lg={4} xl={4}>
@@ -133,9 +133,20 @@ const Footer = () => {
                         </Col>
                     </Row>
                 </Container>
-                {/* <div className="scroll-to-top"><img src="assets/img/icons/arrow-up-line.png" alt="Icon-Image" /></div> */}
-            </FooterMain>
+                {/* <div className="scroll-to-top"><img src="assets/img/icons/arrow-up-line.png" alt="Icon-Image" /></div> 
+            </FooterMain>*/}
             <Container>
+                <Col sm={12} md={6} lg={4} xl={4}>
+                        <WidgetItem>
+                            <AboutWidget>
+                                <Logo className="footer-logo" />
+                                <AboutWidgetText>
+                                    {footerAbout}
+                                </AboutWidgetText>
+                                
+                            </AboutWidget>
+                        </WidgetItem>
+                    </Col>
                 <Row>
                     <Col sx={{ textAlign: "center" }}>
                         <CopyrightText>

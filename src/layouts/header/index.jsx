@@ -16,6 +16,7 @@ import {
     HeaderTop,
     HeaderMenuArea,
     HeaderActionArea,
+    HeaderPrueba,
     MobileMenuArea,
     OffCanvasInner,
     MobileMenuBtn,
@@ -117,8 +118,11 @@ const Header = () => {
                         </Col>
                     </Row>
                 </Container>
-                <MainMenu allmenuData={menuData} />
+                    
             </HeaderTop>
+            <HeaderPrueba>              
+                    <MainMenu allmenuData={menuData} />
+                </HeaderPrueba>
             <MobileMenuArea
                 className={`${ofcanvasOpen ? "mobile-menu-open" : ""}`}
             >

@@ -4,7 +4,12 @@ export const Span = styled.span`
     color: ${themeGet("colors.success")};
     font-family: ${themeGet("fonts.heading")};
 `;
+export const HeaderPrueba = styled.div`
+    background: linear-gradient(to right, #248598 0%, #1E9537 100%);
+    height: 10vh;
 
+
+`;
 export const HeaderTop = styled.div`
     background-color: #fff;
     box-shadow: 0px 15px 35px 0px rgb(0 29 35 / 2%);

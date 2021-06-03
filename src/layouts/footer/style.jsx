@@ -1,12 +1,12 @@
 import styled, { device, themeGet } from "@theme/utils";
 
 export const FooterWrap = styled.footer`
-    background-color: white;
+    background-color: rgba(0, 0, 0);
     padding: 0 15px 33px;
     position: relative;
 `;
 export const FooterMain = styled.div`
-    background-color: #f7f7f7;
+    background-color: rgba(0, 0, 0);
     margin: 0px auto -170px;
     padding: 50px 0 40px;
     max-width: 1555px;
@@ -49,6 +49,7 @@ export const AboutWidget = styled.div`
     .footer-logo {
         display: block;
         margin-bottom: 36px;
+        
     }
 `;
 export const AboutWidgetText = styled.p`
