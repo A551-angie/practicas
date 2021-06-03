@@ -87,7 +87,7 @@ export const AboutTextStyle = styled.p`
     margin-right: -10px;
     position: relative;
     &:before {
-        background-color: #fc6539;
+        background-color: #1E9537;
         content: "";
         height: 75px;
         left: -29px;
@@ -125,7 +125,7 @@ export const ListLi = styled.li`
         top: 6px;
     }
     &.line-center {
-        background-color: #fc6539;
+        background-color: #1E9537;
         height: 43px;
         position: relative;
         top: -2px;

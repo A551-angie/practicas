@@ -83,7 +83,7 @@ const Hero = () => {
                                 {/* <SubTitle>
                                     <StaticImage
                                         src="../../../data/images/icons/1.png"
-                                        alt="Givest"
+                                        alt="Paisano"
                                     />
                                     <h6>{subTitle}</h6>
                                 </SubTitle> */}
@@ -169,7 +169,7 @@ const Hero = () => {
                                         <StaticImage
                                             className="line-shape-img"
                                             src="../../../data/images/shape/line-s2.png"
-                                            alt="Image-Givest"
+                                            alt="Image-Paisano"
                                         />
                                         <h5 className="donate-title">
                                             Total Raised
@@ -185,7 +185,7 @@ const Hero = () => {
                         <div className="shape-style1">
                             <StaticImage
                                 className="shape-img1"
-                                src="../../../data/images/shape/banner.jpeg"
+                                src="../../../data/images/shape/banner.jpg"
                                 alt=""
                             />
                         </div>

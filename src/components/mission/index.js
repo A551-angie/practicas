@@ -15,14 +15,14 @@ const MissionBox = ({ title, text1, text2, VerientClassName }) => {
             <StaticImage
                 className="img-line-shape"
                 src="../../data/images/shape/line-s1.png"
-                alt="Image-Givest"
+                alt="Image-Paisano"
             />
             <DesctionTextOne>{text1}</DesctionTextOne>
             <DesctionTextTwo>{text2}</DesctionTextTwo>
             <StaticImage
                 className="bg-line-shape"
                 src="../../data/images/shape/line5.png"
-                alt="Image-Givest"
+                alt="Image-Paisano"
             />
         </ContentBoxItem>
     );

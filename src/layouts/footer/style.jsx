@@ -76,7 +76,7 @@ export const TaisedAmount = styled.div`
     }
     line-height: 1;
     background: #fea444;
-    background: linear-gradient(to right, #fea444 0%, #fc6539 100%);
+    background: linear-gradient(to right, #1E9537 0%, #248598 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 `;
@@ -126,7 +126,7 @@ export const GalleryItem = styled.div`
         top: 0;
         width: 100%;
         background: #fea444;
-        background: linear-gradient(to right, #fea444 0%, #fc6539 100%);
+        background: linear-gradient(to right, #1E9537 0%, #248598 100%);
         transition: 0.3s;
         -webkit-transition: 0.3s;
         -moz-transition: 0.3s;

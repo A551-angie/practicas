@@ -56,8 +56,8 @@ export const TitleWrap = styled.div`
         top: 0;
         width: 100%;
         background: #fea444;
-        background-image: -ms-linear-gradient(-30deg, #fc6539 0%, #fea444 100%);
-        background: linear-gradient(-30deg, #fc6539 0%, #fea444 100%);
+        background-image: -ms-linear-gradient(-30deg, #1E9537 0%, #248598 100%);
+        background: linear-gradient(-30deg, #1E9537 0%, #248598 100%);
     }
     .section-title {
         margin-bottom: 33px;
