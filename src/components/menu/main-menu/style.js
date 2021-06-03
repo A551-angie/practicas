@@ -30,7 +30,7 @@ export const Navitem = styled.li`
         padding: 7px 25px;
         position: relative;
         &:hover {
-            color: ;
+            color: rgb(201, 211, 208);
         }
     }
 
