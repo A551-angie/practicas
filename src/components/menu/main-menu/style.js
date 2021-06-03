@@ -22,7 +22,7 @@ export const Navitem = styled.li`
     }
     a {
         padding: 7px 34px;
-        color: #001d23;
+        color: white;
         display: block;
         font-size: 17px;
         font-weight: 500;
