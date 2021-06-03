@@ -70,7 +70,7 @@ const CausesItem = ({
                     size="small"
                     variant="outlined"
                     color="light"
-                    sx={{ color: "#FEA444", fontWeight: "400" }}
+                    sx={{ color: "#1E9537", fontWeight: "400" }}
                 >
                     Donate Now{" "}
                     <i
