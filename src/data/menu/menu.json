@@ -1,10 +1,10 @@
 [{
-        "text": "¿QUÉ ES PAISANOS?",
+    "text": "¿QUÉ HACEMOS?",
         "link": "/",
         "isSubmenu": false
     },
     {
-        "text": "¿QUÉ HACEMOS?",
+        "text": "¿QUÉ ES PAISANOS?",       
         "link": "/about-us",
         "isSubmenu": false
     },
