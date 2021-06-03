@@ -9,7 +9,7 @@ const MainMenu = ({ allmenuData }) => {
         <HeaderNavigationArea>
             <Navbar className="main-menu">
                 {menuarr.map((menu) => {
-                    const hasSubmenu = menu.node.isSubmenu ? true : false;
+                    const hasSubmenu = /* menu.node.isSubmenu ? true :  */false;
                     const submenu = menu.node.submenu;
                     return (
                         <Navitem
@@ -21,7 +21,7 @@ const MainMenu = ({ allmenuData }) => {
                             </Link>
                             {submenu && (
                                 <ul className="submenu-nav">
-                                    {submenu.map((submenu, i) => {
+                                    {/* {submenu.map((submenu, i) => {
                                         return (
                                             <Navitem key={`submenu${i}`}>
                                                 <Link to={submenu.link}>
@@ -29,7 +29,7 @@ const MainMenu = ({ allmenuData }) => {
                                                 </Link>
                                             </Navitem>
                                         );
-                                    })}
+                                    })} */}
                                 </ul>
                             )}
                         </Navitem>

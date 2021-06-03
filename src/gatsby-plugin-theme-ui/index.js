@@ -1,10 +1,10 @@
 const theme = {
     colors: {
-        primary: "#fc6539",
+        primary: "#248598",
         text: "#333",
         heading: "#414141",
         border: "#E0E0E0",
-        secondary: "#4054b2",
+        secondary: "#1E9537",
         background: "#fff",
         hover: "#3f41e2",
         shark: "#929496",
@@ -24,7 +24,7 @@ const theme = {
         alabaster: "#fafafa",
         mystic: "#e1e8ed",
         facebook: "#3b5998",
-        gradient: "linear-gradient(to right, #FEA444 0%, #FC6539 100%)",
+        gradient: "linear-gradient(to right, #248598 0%, #1E9537 100%)",
     },
     fontSize: {
         body: "16px",

@@ -21,19 +21,10 @@
     {
         "text": "APLICA PARA AYUDAR",
         "link": "/volunteer",
-        "isSubmenu": true,
-        "submenu": [{
-                "text": "Event Details",
-                "link": "/events/need-school-for-mozambique-children"
-            },
-            {
-                "text": "Volunteer",
-                "link": "/volunteer"
-            }
-        ]
+        "isSubmenu": false
     },
     {
-        "text": "Contàctanos",
+        "text": "Contáctanos",
         "link": "/contact-us",
         "isSubmenu": false
     }

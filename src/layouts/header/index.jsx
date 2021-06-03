@@ -113,7 +113,7 @@ const Header = () => {
                                             path="/contact-us"
                                             color="gradient"
                                         >
-                                           CONTÀCTANOS{" "}
+                                           CONTÁCTANOS{" "}
                                             <i className="flaticon-right-arrow"></i>
                                         </Button>
                                     </ButtonBoxArea>*/}
