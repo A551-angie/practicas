@@ -6,9 +6,8 @@ export const Span = styled.span`
 `;
 export const HeaderPrueba = styled.div`
     background: linear-gradient(to right, #248598 0%, #1E9537 100%);
-    height: 10vh;
-
-
+    padding:10px
+   
 `;
 export const HeaderTop = styled.div`
     background-color: #fff;
@@ -18,10 +17,11 @@ export const HeaderTop = styled.div`
     position: relative;
     z-index: 999;
     ${device.medium} {
-        padding: 10px 0;
+        padding: 0px;
+        padding-top:15px;
     }
     ${device.large} {
-        padding-right: 25px;
+        
     }
     ${device.xxlarge} {
         .container {
