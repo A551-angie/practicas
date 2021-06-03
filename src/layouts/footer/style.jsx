@@ -1,7 +1,7 @@
 import styled, { device, themeGet } from "@theme/utils";
 
 export const FooterWrap = styled.footer`
-    background-color: #001d23;
+    background-color: white;
     padding: 0 15px 33px;
     position: relative;
 `;
