@@ -1,7 +1,7 @@
 /* eslint-disable prettier/prettier */
 module.exports = {
     title: "Givest",
-    titleTemplate: "Givest – Non Profit Gatsby Template",
+    titleTemplate: "Paisano",
     description:
         "Non Profit Best Gatsby and react Templates are available on this website.",
     author: "",

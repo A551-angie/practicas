@@ -83,20 +83,15 @@ const Header = () => {
                     scroll > headerTop ? "is-sticky" : ""
                 }`}
             >
+            
                 <Container>
                     <Row className="align-items-center">
                        <Col lg={2} md={3} sm={3} xs={5}>
                             <Logo />
-                        </Col>
-                    </Row>
-                </Container>
-                <MainMenu allmenuData={menuData} />
-                <Container>
-                    <Row className="align-items-center">
+                        </Col> 
                         
                         <Col lg={10} md={9} sm={9} xs={7}>
-                            <HeaderMenuArea>                              
-
+                            <HeaderMenuArea>                     
                                 <HeaderActionArea>
                                     <MobileMenuBtn
                                         onClick={ofcanvasHandaler}
@@ -106,7 +101,7 @@ const Header = () => {
                                         <span></span>
                                         <span></span>
                                     </MobileMenuBtn>
-                                    {/*<ButtonBoxArea>
+                                    <ButtonBoxArea>
                                         <Button
                                             sx={{ ml: "15px" }}
                                             type="button"
@@ -116,12 +111,13 @@ const Header = () => {
                                            CONTÁCTANOS{" "}
                                             <i className="flaticon-right-arrow"></i>
                                         </Button>
-                                    </ButtonBoxArea>*/}
+                                    </ButtonBoxArea>
                                 </HeaderActionArea>
                             </HeaderMenuArea>
                         </Col>
                     </Row>
                 </Container>
+                <MainMenu allmenuData={menuData} />
             </HeaderTop>
             <MobileMenuArea
                 className={`${ofcanvasOpen ? "mobile-menu-open" : ""}`}
